@@ -9,7 +9,7 @@ server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setblocking(False)
 
 # Bind the socket to the port
-server_address = ('localhost', 10000)
+server_address = ('localhost', 10001)
 server.bind(server_address)
 
 # Listen for incoming connections

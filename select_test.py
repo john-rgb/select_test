@@ -18,8 +18,12 @@ while True:
     for sk in r_list:
         print('sssssssssssssss')
         print(sk)
+        if sk is server:
+            conn, address = server.accept()
+            inputs.append(conn)
         # conn表示每一个连接对象
-        conn, address = sk.accept()
+
+
         # print(conn)
         # conn.sendall(bytes('hello', encoding='utf-8'))
         while 1:

@@ -23,8 +23,8 @@ while True:
 
     sk.sendall(bytes(file_info, 'utf8'))  # 编码
     #
-    # f = open(path, 'rb')
-    file_size=100
+    f = open(path, 'rb')
+    # file_size=100
     has_sent = 0
     while has_sent != file_size:
         data = input('>>>###')
