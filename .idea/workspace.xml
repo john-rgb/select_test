@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148aa2a0-f1d6-4a0a-99c0-984c03e85743" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +37,7 @@
     <SUITE FILE_PATH="coverage/select_test$wangyiyun.coverage" NAME="wangyiyun Coverage Results" MODIFIED="1568560195193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/select_test$test_server.coverage" NAME="test_server Coverage Results" MODIFIED="1567935143118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/select_test$dir.coverage" NAME="dir Coverage Results" MODIFIED="1567524538294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/select_test$exp.coverage" NAME="exp Coverage Results" MODIFIED="1569165201174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/select_test$select_2.coverage" NAME="select_2 Coverage Results" MODIFIED="1567435446135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/select_test$processbar.coverage" NAME="processbar Coverage Results" MODIFIED="1567521883341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/select_test$selenium_test.coverage" NAME="selenium_test Coverage Results" MODIFIED="1568455464417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -68,14 +68,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wangyiyun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+            <state relative-caret-position="1024">
+              <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -181,6 +190,8 @@
         <option value="$PROJECT_DIR$/test_server.py" />
         <option value="$PROJECT_DIR$/selenium_test.py" />
         <option value="$PROJECT_DIR$/wangyiyun.py" />
+        <option value="$PROJECT_DIR$/test.m3u" />
+        <option value="$PROJECT_DIR$/exp.py" />
       </list>
     </option>
   </component>
@@ -198,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +243,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wangyiyun">
+  <component name="RunManager" selected="Python.exp">
+    <configuration name="exp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="select_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="selenium_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="select_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,28 +302,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="select_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,11 +349,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exp" />
         <item itemvalue="Python.wangyiyun" />
         <item itemvalue="Python.selenium_test" />
         <item itemvalue="Python tests.Unittests for selenium_test.BaiBu" />
         <item itemvalue="Python.test_client" />
-        <item itemvalue="Python.test_server" />
       </list>
     </recent_temporary>
   </component>
@@ -368,6 +379,7 @@
       <workItem from="1568509935713" duration="5857000" />
       <workItem from="1568556525123" duration="3229000" />
       <workItem from="1568559777548" duration="491000" />
+      <workItem from="1569119333820" duration="10957000" />
     </task>
     <servers />
   </component>
@@ -377,7 +389,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69439000" />
+    <option name="totallyTimeSpent" value="80396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,7 +404,7 @@
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15791583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15991984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -580,6 +592,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.csv" />
+    <entry file="file://$PROJECT_DIR$/discotime.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="2660">
+          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/process_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -641,28 +668,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/discotime.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="2660">
-          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wangyiyun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="1024">
+          <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.m3u">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26061" lean-forward="true" selection-start-column="26061" selection-end-column="26061" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>

